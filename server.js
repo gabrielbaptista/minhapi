@@ -6,11 +6,11 @@ const app = express()
  
 var apiPort = process.env.PORT || 3000;
 
-app.get('/api/', function (req, res) {
+app.get('/', function (req, res) {
   res.send('Hello World')
 })
  
-app.get('/api/test', function (req, res) {
+app.get('/test', function (req, res) {
     res.send('Hello World Teste')
   })
   
