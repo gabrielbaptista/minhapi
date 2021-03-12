@@ -11,4 +11,4 @@ app.get('/test', function (req, res) {
     res.send('Hello World Teste')
   })
   
-app.listen(apiPort)
+app.listen(apiPort, () => console.log("Server is running"))
