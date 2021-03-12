@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
   res.send('Hello World')
 })
  
-app.get('/test', function (req, res) {
+app.get('/test/', function (req, res) {
     res.send('Hello World Teste')
   })
   
