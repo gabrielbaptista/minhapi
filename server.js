@@ -1,3 +1,6 @@
+﻿// biblioteca js que faz o mapeamento das pastas em função do server.js
+require('rootpath')(); 
+
 const express = require('express')
 const app = express()
  
