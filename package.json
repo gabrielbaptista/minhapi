@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "request": "^2.58.0",
     "rootpath": "^0.1.2"
